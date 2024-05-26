@@ -42,10 +42,12 @@ public class BoardController {
     }
 
     @GetMapping("/{id}")
-    public String findByID(@PathVariable Long id, Model model){
+    public String findByID(@PathVariable Long id, Model model,
+                           @PageableDefault(page = 1) Pageable pageable){
         boardService.updateHits(id);
         BoardDTO boardDTO =  boardService.findById(id);
         model.addAttribute("board", boardDTO);
+        model.addAttribute("page", pageable.getPageNumber());
         return "detail";
     }
 
