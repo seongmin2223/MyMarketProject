@@ -1,6 +1,6 @@
-package com.mypagingboard.demo.repository;
+package com.mymarketproject.demo.repository;
 
-import com.mypagingboard.demo.entity.BoardEntity;
+import com.mymarketproject.demo.entity.BoardEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

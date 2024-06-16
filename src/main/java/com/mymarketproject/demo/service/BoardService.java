@@ -1,8 +1,8 @@
-package com.mypagingboard.demo.service;
+package com.mymarketproject.demo.service;
 
-import com.mypagingboard.demo.dto.BoardDTO;
-import com.mypagingboard.demo.entity.BoardEntity;
-import com.mypagingboard.demo.repository.BoardRepository;
+import com.mymarketproject.demo.dto.BoardDTO;
+import com.mymarketproject.demo.entity.BoardEntity;
+import com.mymarketproject.demo.repository.BoardRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

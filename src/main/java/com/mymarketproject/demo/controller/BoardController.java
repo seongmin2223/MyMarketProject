@@ -1,8 +1,7 @@
-package com.mypagingboard.demo.controller;
+package com.mymarketproject.demo.controller;
 
-import com.mypagingboard.demo.dto.BoardDTO;
-import com.mypagingboard.demo.service.BoardService;
-import lombok.RequiredArgsConstructor;
+import com.mymarketproject.demo.dto.BoardDTO;
+import com.mymarketproject.demo.service.BoardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

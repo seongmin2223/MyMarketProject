@@ -1,6 +1,6 @@
-package com.mypagingboard.demo.entity;
+package com.mymarketproject.demo.entity;
 
-import com.mypagingboard.demo.dto.BoardDTO;
+import com.mymarketproject.demo.dto.BoardDTO;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

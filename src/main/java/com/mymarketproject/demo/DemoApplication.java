@@ -1,4 +1,4 @@
-package com.mypagingboard.demo;
+package com.mymarketproject.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

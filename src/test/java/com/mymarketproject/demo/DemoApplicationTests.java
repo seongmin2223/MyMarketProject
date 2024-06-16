@@ -1,4 +1,4 @@
-package com.mypagingboard.demo;
+package com.mymarketproject.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

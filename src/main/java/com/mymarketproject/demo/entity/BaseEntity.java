@@ -1,4 +1,4 @@
-package com.mypagingboard.demo.entity;
+package com.mymarketproject.demo.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;

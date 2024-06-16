@@ -1,6 +1,6 @@
-package com.mypagingboard.demo.dto;
+package com.mymarketproject.demo.dto;
 
-import com.mypagingboard.demo.entity.BoardEntity;
+import com.mymarketproject.demo.entity.BoardEntity;
 import lombok.*;
 
 import java.time.LocalDateTime;
