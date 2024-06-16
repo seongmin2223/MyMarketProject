@@ -8,6 +8,9 @@
     <button onclick="saveReq()">글 작성</button>
     <button onclick="listReq()">글 목록</button>
     <button onclick="pagingReq()">페이징목록</button>
+    <h1>Excel Download</h1>
+    <button onclick="downloadExcel()">Download Excel</button>
+    <button onclick="downloadZip()">Download Zip</button>
 </body>
 <script>
     const saveReq = () => {
@@ -18,6 +21,13 @@
     }
     const pagingReq = () => {
         location.href = "/board/paging";
+    }
+    function downloadExcel() {
+            window.location.href = '/file';
+        }
+
+    function downloadZip() {
+        window.location.href = '/file/zip';
     }
 </script>
 </html>
